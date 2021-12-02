@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type ="text/css" href = "css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script> src ="js/custom.js"></script>
+    <script src="js/typed.min.js"></script>>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class = "logo">Port<span>folio</span></div> 
+            
+            <div class = "menu">
+                <a href = "#about">About</a>
+                <a href = "#experience">Experience</a>
+                <a href = "#projects">Projects</a>
+                <a href = "#contact">Contact</a>
+            </div>
+
+
+
+        </nav>
+
+        <div class = "text">
+            <p> Hello, I am</p>
+            <h1> Vivek Chaudhary</h1>
+            <p>And I'm a <span id="ani" style="color: #e74c3c;"></span></p>
+        </div>
+
+    </header>
+
+    <section class = "about" id="about">
+        <div class = "section-info">
+            <h1>About</h1>
+            <p>Who am i?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                    <img src="images/marks.jpg">
+            </div>
+            <div class="about-right-col">
+                <p id = "p-title">
+                    Hello, I'm Vivek & I'm a <span id="ani2" style="color: #e74c3c;"></span>
+                </p>
+                <p>
+                    <br>
+                    <ul>
+                   <li>An M.Tech student currently pursuing masters in Computer Science and Information Security.</li> 
+                   <li>Having experience in part time teaching and enthusisastic to learn about stock markets and cryptocurrency.</li>
+                   <li>Awarded thrice with All India merit scholarship certiﬁcate from ARMY WELFARE EDUCATION SOCIETY NEW DELHI 
+                    for academic performance in undergraduation(2018, 2019 & 2020)</li>
+                    <li>Awarded with letter of appreciation by Former Minsiter Human Resource Development Governement of India,
+                    Smriti Zubin Irani for academic performance in High Schools examinations.</li>
+                   </ul>
+                   <br>
+                   Languages & Softwares: <span id="ani5" style="color: #e74c3c;"></span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class = "experience" id="experience">
+        <div class = "section-info">
+            <h1>Experience</h1>
+            <p>What have i gained?</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="boxes">
+            <div class="box">
+              <div class="topic">Academic Intern</div>
+              <div class="subtopic">Solutions Adda</div>
+              <br>
+                <ul class = "a">    
+                <li>Worked as GATE 2022 test series question designer in collaboration add with Solutions Adda</li>
+                <li>Working with team on design of challenging questions for core Computer Science subjects</li>
+                </ul>
+            </div>
+            <div class="box">
+              <div class="topic">Algorithmic Toolbox</div>
+              <div class="subtopic">Coursera</div>
+              <br>
+              <ul class = "a">    
+                <li>Learned various algorithmic design techniques</li>
+                <li>Implemented eﬃcient and relaible solutions</li>
+                </ul>
+            </div>
+            <div class="box">
+              <div class="topic">Data Structures</div>
+              <div class="subtopic">Coursera</div>
+              <br>
+              <ul class = "a">    
+                <li>Learned Dynamic Programming technique to solve problems</li>
+                <li>Used time and space complexity analysis to analyze algorithms</li>
+                </ul>
+            </div>
+            <div class="box">
+              <div class="topic">Subject Matter Expert</div>
+              <div class="subtopic">Chegg India pvt. ltd.</div>
+              
+              <br>
+              <ul class = "a">    
+                <li>Worked as an Subject matter expert in Chemistry subject in collaboration with Chegg India Pvt. Ltd.</li>
+                <li>Working with team on providing solutions to academic problems to USA based students.</li>
+                </ul>
+            </div>
+          </div>
+        
+    </section>
+    <br><br><br><br><br><br><br>
+    <section class = "projects" id="projects">
+        <div class = "section-info">
+            <h1>Projects</h1>
+            <p>What have i made?</p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="boxes">
+            <div class="box">
+              <div class="topic">Social distance detection using centroid tracking algorithm</div>
+              <div class="subtopic"><span id="ani3" style="color: #e74c3c;"></span></div>
+                
+              <br>
+              <ul class = "a">    
+                    <li>Detected moving objects in video frame and gave warnings if two people violate social distancing norms
+                    set by Government of India in accordance with Covid-19 disease.</li>
+                    <br><li>Used You only look once(YOLO) algorithm to detect people in video frame and applied centroid tracking
+                    algorithm to keep track of moving people in video frame.</li>
+                    <br><li>Calculated distance between two objects using Euclidean distane formula to check whether two objects
+                    violate norms or not.</li>
+                    <br><li>Kept track of number of live violations and used bounding box to indicate site of violation.</li>
+                </ul>
+            </div>
+            <div class="box">
+              <div class="topic">Sorting Visualizer</div>
+              <div class="subtopic"><span id="ani4" style="color: #e74c3c;"></span></div>
+              <br>  
+              <ul class = "a">    
+                    <li>Used HTML5, CSS and Java Script to visualize the working of various sorting algorithms: Bubble sort,
+                    Insertion sort, Selection sort, Quick sort, Heap sort and Merge sort.</li>
+                    <br><li>Provided the functionality to analyze the speed of various algorithms based on dynamic input array
+                    size which can be controlled by user.</li>
+                    <br><li>Provided user friendly visualization so that an low level comparative working of various algorithms can
+                    be provided.</li>
+                </ul>
+            </div>
+          </div>
+        
+    </section>
+
+
+<script>
+    let animate1=new Typed('#ani',{
+        strings:["Coder", "Problem Solver", "Learner"], 
+        typeSpeed:100, 
+        backSpeed:100, 
+        loop:true,
+    })
+</script>    
+
+<script>
+    let animate2=new Typed('#ani2',{
+        strings:["Coder", "Problem Solver", "Learner"], 
+        typeSpeed:100, 
+        backSpeed:100, 
+        loop:true,
+    })
+</script>   
+
+
+<script>
+    let animate3=new Typed('#ani3',{
+        strings:["YOLO", "Deep Learning", "Open-CV"], 
+        typeSpeed:100, 
+        backSpeed:100, 
+        loop:true,
+    })
+</script>  
+
+<script>
+    let animate4=new Typed('#ani4',{
+        strings:["HTML5", "CSS", "JavaScript"], 
+        typeSpeed:100, 
+        backSpeed:100, 
+        loop:true,
+    })
+</script>  
+
+<script>
+    let animate5=new Typed('#ani5',{
+        strings:["C", "C++", "Java", "Matlab", "JFLAP", "LaTex"], 
+        typeSpeed:100, 
+        backSpeed:100, 
+        loop:true,
+    })
+</script>  
+
+<footer>
+    <div class="text">
+      Created By Vivek Chaudhary-212IS038 @NITK
+    </div>
+  </footer>
+
+</body>
+</html>
